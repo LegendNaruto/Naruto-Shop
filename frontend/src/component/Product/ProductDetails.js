@@ -134,7 +134,7 @@ const ProductDetails = ({ match }) => {
                 </span>
               </div>
               <div className="detailsBlock-3">
-                <h1>{`USD ${product.price}`}</h1>
+                <h1>{`TND ${product.price}`}</h1>
                 <div className="detailsBlock-3-1">
                   <div className="detailsBlock-3-1-1">
                     <button onClick={decreaseQuantity}>-</button>
